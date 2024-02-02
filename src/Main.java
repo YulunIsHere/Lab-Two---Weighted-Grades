@@ -55,7 +55,7 @@ public class Main {
       if (input.equals("c")) {
         earnedPoint = gradeCalculator.getEarnedPoint();
         System.out.println("This is your current Earned Points: " + earnedPoint);
-        System.out.println("Please input the updated Earned Points (Please input amount eg. 89.5)");
+        System.out.println("Please input the updated Earned Points (Please input amount eg. 89)");
         gradeCalculator.setEarnedPoint(sc.nextInt());
         earnedPoint = gradeCalculator.getEarnedPoint();
         System.out.println("This is your updated Earned Points: " + earnedPoint);
